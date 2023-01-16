@@ -9,6 +9,6 @@
 /models/ckpt/
 *.pth
 *.png
-*.txt
 *.pyc
 *gra*
+*ele*
