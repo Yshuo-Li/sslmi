@@ -2,6 +2,6 @@
 
 Run:
 
-'''shell
+```shell
 bash run.sh
-'''
+```
