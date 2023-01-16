@@ -221,6 +221,8 @@ def test():
 
 def create():
     linear = MagForward(20, (100, 62), (65.66, 65.57, 100), set_params=True)
+    if not os.path.exists('models/ckpt'):
+        os.mkdir('models/ckpt')
     torch.save(linear.state_dict(),
                'models/ckpt/mag_forward_100_62_20_real1.pth')
 
