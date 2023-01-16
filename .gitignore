@@ -1,0 +1,14 @@
+# Ignore Git here
+.git
+*.mat
+/data/magnetic_ann
+/tools/
+/tools
+/work_dirs/
+/work_dirs
+/models/ckpt/
+*.pth
+*.png
+*.txt
+*.pyc
+*gra*
